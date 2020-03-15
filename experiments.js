@@ -57,12 +57,42 @@
 // Add +=
 // Increment++
 
-// Part 10
-let friendsAtYourParty = 0;
+// // Part 10
+// let friendsAtYourParty = 0;
 
-for (let i = 0; i < 10; i++) {
-    console.log(i);
-    friendsAtYourParty++;
-}
+// for (let i = 0; i < 10; i++) {
+//     console.log(i);
+//     friendsAtYourParty++;
+// }
 
-console.log(friendsAtYourParty);
+// console.log(friendsAtYourParty);
+
+// // Part 11
+// function addTwo(num) {
+//     return num + 2;
+// }
+
+// function getFive() {
+//     return 5
+// }
+
+// function add(num1, num2) {
+//     return num1 + num2;
+// }
+
+// const finalAnswer = addTwo(5);
+// const test = getFive();
+// const test2 = getFive;
+// console.log(finalAnswer);
+// console.log(add(4,6));
+// console.log(test2()); // weird
+
+// Part 12 BUILTINS
+const sentence = "THis Is wEIrD";
+console.log(sentence.toLowerCase());
+// look at mdn
+
+console.log(Math.round(3.4)); // min max floor ceil etc.
+const str = "0123456789";
+console.log(str.substr(6,3)); // use substring
+sentence.to
